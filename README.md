@@ -26,8 +26,10 @@ MIT License attached.
 
 ## Team
 
-· Edgar Mixcoah
-· Liliana M. Moreno Vargas
+### In charge:
+
+· Edgar Mixcoah \
+· Liliana M. Moreno Vargas \
 · Diego Prada Gracia
 
 ### Contributors:
