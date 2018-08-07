@@ -1,31 +1,17 @@
-from setuptools import find_packages
-
-from numpy.distutils.core import setup
-from numpy.distutils.extension import Extension
-
-
-ext_potential_energy_network = Extension(
-    name = 'kinnetmt.lib.potential_energy',
-    #extra_compile_args = ["-fcheck=all"],
-    extra_compile_args = [],
-    libraries = [],
-    language = 'f90',
-    sources = ['kinnetmt/lib/potential_energy.f90'],
-)
-
+import distutils.extension
+from setuptools import setup, find_packages
 
 setup(
-    name='kinnetmt',
-    version='0.0.1',
-    author='UIBCDF Lab',
-    author_email='uibcdf@gmail.com',
-    package_dir={'kinnetmt': 'kinnetmt'},
+    name='GPCRaptor',
+    version='0.1.1',
+    author='Mixcoah Lab - UIBCDF Lab',
+    author_email='',
+    package_dir={'gpcraptor': 'gpcraptor'},
     packages=find_packages(),
-    package_data={'kinnetmt': []},
-    ext_modules=[ext_potential_energy_network],
+    package_data={'gpcraptor': []},
     scripts=[],
-    url='http://uibcdf.org',
-    download_url ='https://github.com/uibcdf/KinNetMT',
+    url='',
+    download_url ='',
     license='MIT',
     description="---",
     long_description="---",

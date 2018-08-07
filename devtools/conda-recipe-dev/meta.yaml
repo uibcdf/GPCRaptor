@@ -1,0 +1,29 @@
+package:
+  name: gpcraptor
+  version: 0.1.1
+
+source:
+  path: ../../
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+
+  run:
+    - python
+    - numpy
+    - mdtraj
+
+about:
+  home: bla
+  license: MIT License
+  summary: bla
+  description: |
+          bla bla
+  dev_url: https://bla
+  doc_url: https://bla
