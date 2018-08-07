@@ -12,7 +12,5 @@ setup(
     scripts=[],
     url='',
     download_url ='',
-    license='MIT',
-    description="---",
-    long_description="---",
 )
+
