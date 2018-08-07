@@ -5,7 +5,7 @@ receptors_info={
     'MOR_CG' : 'Mu Opioid Receptor in its Martini Coarse Grained version'}
 
 
-receptors=list(receptors_name.keys())
+receptors=list(receptors_info.keys())
 
 class Receptor():
 

@@ -1,5 +1,3 @@
-
-
 class Dining_Table():
 
     def __init__(receptor=None, traj=None):
@@ -7,4 +5,4 @@ class Dining_Table():
         self.receptor = receptor
         self.traj = traj
 
-    import .receptor_observables as receptor_observables
+    from . import receptor_observables as receptor_observables
