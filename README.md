@@ -28,7 +28,7 @@ MIT License attached.
 
 ### In charge:
 
-· Edgar Mixcoah \
+· Edgar Mixcoha \
 · Liliana M. Moreno Vargas \
 · Diego Prada Gracia
 
