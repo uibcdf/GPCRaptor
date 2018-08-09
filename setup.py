@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='GPCRaptor',
     version='0.1.1',
-    author='Mixcoah Lab - UIBCDF Lab',
+    author='Mixcoha Lab - UIBCDF Lab',
     author_email='',
     package_dir={'gpcraptor': 'gpcraptor'},
     packages=find_packages(),
